@@ -1,0 +1,76 @@
+.texto-imagen {
+    display:flex;
+    justify-content: space-between;
+}
+
+.texto-imagen > .imagen img {
+    width: 750px;
+}
+
+.texto-imagen > .texto {
+    font-family:'Fira Code', monospace;;
+    width: 850px;
+    padding: 75px 90px;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.texto-imagen > .texto > .ancho-diferente {
+    width:100%;
+}
+
+.texto-imagen > .texto > p {
+   font-size: 1.70rem;
+   margin-top:45px;
+   margin-bottom: 65px;
+}
+
+.texto-imagen > .texto > .dos-botones {
+    width: 600px;
+    font-family: lato;
+    display:flex;
+    justify-content: space-between;
+}
+
+.texto-imagen > .texto > .dos-botones > .sign {
+    background-color: #52D974;
+    color:black;
+    padding: 20px;
+}
+
+
+.texto-imagen > .texto > .dos-botones > .learn {
+    background-color: #000000;
+    padding: 20px;
+}
+
+.texto-imagen > .imagen {
+    padding-top:40px;
+}
+
+.texto-imagen > .imagen p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-bottom: 7px;
+}
+
+.cuatro-columnas {
+    font-size: 1.5rem;
+    background-color: rgb(63, 62, 62);
+    display:flex;
+    margin-top:0px;
+}
+
+.negrita {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.teams, .education, .privacy, .writing {
+    background-color: rgb(63, 62, 62);
+    border:2px solid grey;
+    width:480px;
+    padding: 20px 0px;
+    text-align: center;
+}

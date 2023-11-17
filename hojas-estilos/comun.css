@@ -1,0 +1,16 @@
+body {
+    margin:0;
+    font-family: lato;
+    color:white;
+    background-color:  rgb(63, 62, 62);
+    background: linear-gradient(50deg,  rgb(63, 62, 62), rgba(0,0,0)); 
+}
+
+.azul {
+    color: #46ABD9;
+}
+
+.cabh1 {
+    font-size: 2.5rem;
+    display:inline;
+}

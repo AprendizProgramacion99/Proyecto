@@ -1,0 +1,71 @@
+.nav-bar {
+    height: 100px;
+    background-color: #000000;
+    font-family: lato;
+    font-size: 1.5rem;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;   
+}
+
+.nav-bar > .columna-izda > .logo img {
+    width: 180px;
+    padding-right: 25px;
+}
+
+.nav-bar > .columna-izda {
+    width:850px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar > .columna-izda > .titulos-links p {
+    margin:0px;
+    color:#F4E187;
+}
+
+.nav-bar > .columna-izda > .titulos-links > .contenedor-links {
+    width: 600px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav-bar > .columna-izda > .titulos-links > .contenedor-links a {
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-bar > .columna-izda > .titulos-links > .contenedor-links > #gris {
+    color:grey;
+}
+
+.nav-bar > .columna-izda > .titulos-links > .contenedor-links i {
+    color:grey;
+}
+
+.nav-bar > .columna-derecha {
+    width: 500px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.nav-bar > .columna-derecha a {
+    text-decoration: none;
+    color:white;
+}
+
+.nav-bar > .columna-derecha > .buscador i {
+    font-size: 2rem;
+}
+
+.nav-bar > .columna-derecha > .Create-desplegable, .Sign-up, .Log-in {
+    background-color: rgb(63, 62, 62);
+    padding:20px;
+}
+
+
